@@ -1,0 +1,23 @@
+h1{
+    background-color: red;
+}
+/* instead of styling div element we choose the value of the attribute, and since our attribute is id in css,id is symbolised by # therefore it will be written as follows */
+#division{
+    color: firebrick;
+}
+#division{
+    color: coral;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 10px 10px;
+}
+.one{
+    color: hotpink;
+}
+.black{
+    color: brown;
+}
+.sweet{
+    background-color: darkkhaki;
+}
