@@ -1,5 +1,10 @@
 h1{
     background-color: red;
+    text-indent: -5px;
+    letter-spacing: inherit;
+    font-variant: small-caps;
+    border: 5px solid brown;
+    border-radius: 10px;
 }
 /* instead of styling div element we choose the value of the attribute, and since our attribute is id in css,id is symbolised by # therefore it will be written as follows */
 #division{
@@ -20,4 +25,62 @@ h1{
 }
 .sweet{
     background-color: darkkhaki;
+}
+.three {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.four{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.paragraph{
+    font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif; cursive;
+font-weight: bold;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: palevioletred;
+}
+a:hover{
+    color: azure;
+    background-color: brown;
+}
+a:active{
+    text-transform: uppercase;
+}
+/* styling tables */
+table{
+    width: 100%;
+    border-collapse: separate;
+}
+table,th,td{
+    border: 1px solid brown;
+}
+th{
+    text-align: center;
+    height: 50px;
+}
+/* styling rows in different colors odd and even */
+tbody tr:nth-child(odd){
+    background-color: fff;
+}
+tbody tr:nth-child(even){
+    background-color: chocolate;
+}
+td{
+    padding: 15px;
+}
+/* centering div */
+div{
+    width: 30%;
+    margin: 0 auto;
+    background-color: lightsalmon;
+    text-align: center;
+    color: #D1512D;
 }
